@@ -7,7 +7,7 @@ Docker https://docs.docker.com/get-docker/
 
 VNC Viewer https://www.realvnc.com/de/connect/download/viewer/
 
-### Usage
+## Usage
 Run with:
 ```sh
 docker run -p 5900:5900 pablodockobar/vnc-groot
