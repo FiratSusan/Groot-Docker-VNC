@@ -14,6 +14,8 @@ docker run -p 5900:5900 pablodockobar/vnc-groot
 ```
 The VNC Server will listen on **localhost:5900**.
 
+Via the VNC Viewer access the container to open a Terminal with `CTRL+ALT+T` and directly execute `Groot`, to open the Editor.
+
 If you want to build the image locally:
 ```sh
 git clone https://github.com/FiratSusan/Groot-Docker-VNC
