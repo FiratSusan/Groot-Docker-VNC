@@ -23,6 +23,11 @@ cd Groot-Docker-VNC
 docker build -t pablodockobar/vnc-groot .
 ```
 
+Example: Changing Resoultion and mapping folder to save the tree/palette
+```sh
+docker run -it -p 5900:5900 -e RESOLUTION=1920x1080 -v <path-to-your-folder>:/Trees pablodockobar/vnc-groot
+```
+
 # References
 
 For more Information regarding Groot:
